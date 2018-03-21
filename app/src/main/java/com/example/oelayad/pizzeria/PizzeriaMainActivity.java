@@ -27,7 +27,6 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
     private Button btntiramisu;
 
 
-    //on crée des click static pour que leur valeurs ne se réinitialise pas au passage ecran vertical/horizontal
     static int clickhawai;
     static int clickmontagnarde;
     static int clicknapolitaine;
@@ -36,6 +35,7 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
     static int clickraclette;
     static int clickroyale;
     static int clicktiramisu;
+    private int valueTab;
 
 
     @Override
@@ -72,8 +72,11 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
         String nomCommande;
         switch (v.getId()){
             case R.id.btnhawai:
-                btnhawai.setText("Hawaienne");
+                clickhawai++;
+                btnhawai.setText("Hawaienne" + ":" + clickhawai);
                 nomCommande = (String) btnhawai.getText();
+                Commande cHwai = new Commande();
+                cHwai.execute(valueTab + "Hawaienne");
 
                 break;
 //            fin de hawaienne
@@ -82,7 +85,8 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
                 btnmontagnarde.setText("Montagnarde");
 
                 nomCommande = (String) btnmontagnarde.getText();
-
+                Commande cMont = new Commande();
+                cMont.execute(valueTab + "Montagnarde");
                 break;
 //            fin de montagnarde
 
@@ -155,45 +159,6 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
     }
 
 
-    private class Commande extends AsyncTask<Void, Void, Void>{
 
-        private final int wait = 9000;
-        private int port = 6666;
-
-//        @Override
-//        protected void onPreExecute() {
-//
-//        }
-//
-//        @Override
-//        protected void onPostExecute(Void aVoid) {
-//        }
-
-        protected Void doInBackground(String... values) {
-            Socket socket = null;
-            try{
-                socket = new Socket("chadok.info", port);
-                PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
-                BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-
-                writer.println(values[0]);
-                String returnMessage = reader.readLine();
-            }
-
-            catch(IOException e){
-                    e.printStackTrace();
-            }
-            finally {
-                if(socket != null){
-                    try{
-                        socket.close();
-                    }
-                    catch (IOException e){
-                        e.printStackTrace();
-                    }
-                }
-            }
-        }
-    }
 }
 

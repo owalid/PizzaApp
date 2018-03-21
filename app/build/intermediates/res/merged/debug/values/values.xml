@@ -440,8 +440,18 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Pizzeria</string>
+    <string name="key_hawaienne">KEY_HAW</string>
+    <string name="key_montagnarde">KEY_MONT</string>
+    <string name="key_napolitaine">KEY_NAPO</string>
+    <string name="key_pannaCotta">KEY_PANCOTA</string>
+    <string name="key_qfrommage">KEY_QFROM</string>
+    <string name="key_raclette">KEY_RACL</string>
+    <string name="key_royale">KEY_ROY</string>
+    <string name="key_table">KEY_TABLE</string>
+    <string name="key_tiramisu">KEY_TIRA</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="table">table numero: </string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

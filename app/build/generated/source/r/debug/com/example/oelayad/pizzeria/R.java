@@ -2503,8 +2503,18 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f060011;
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int app_name=0x7f060021;
+        public static final int key_hawaienne=0x7f060022;
+        public static final int key_montagnarde=0x7f060023;
+        public static final int key_napolitaine=0x7f060024;
+        public static final int key_pannaCotta=0x7f060025;
+        public static final int key_qfrommage=0x7f060026;
+        public static final int key_raclette=0x7f060027;
+        public static final int key_royale=0x7f060028;
+        public static final int key_table=0x7f060029;
+        public static final int key_tiramisu=0x7f06002a;
         public static final int search_menu_title=0x7f060013;
         public static final int status_bar_notification_info_overflow=0x7f060014;
+        public static final int table=0x7f06002b;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08009f;
