@@ -1,18 +1,13 @@
 package com.example.oelayad.pizzeria;
 
-import android.os.AsyncTask;
+import android.content.Intent;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.InterruptedIOException;
-import java.io.PrintWriter;
-import java.net.Socket;
+import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class PizzeriaMainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -35,7 +30,10 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
     static int clickraclette;
     static int clickroyale;
     static int clicktiramisu;
-    private int valueTab;
+    private EditText valueTab;
+    private String numTable;
+    public static TextView labelText;
+
 
 
     @Override
@@ -43,7 +41,14 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pizzeria_main);
 
-        btnnapolitaine = (Button) findViewById(R.id.btnnapolitaine);
+        Intent intent = getIntent();
+        numTable = intent.getStringExtra(Start_Pizzeria.CLE_DONNEES);
+
+        labelText = (TextView) findViewById(R.id.textTable);
+        String newText = labelText.getText() + numTable;
+        labelText.setText(newText);
+
+        btnnapolitaine = (Button) findViewById(R.id.napolitaine);
         btnnapolitaine.setOnClickListener(this);
 
         btnroyale = (Button) findViewById(R.id.btnroyale);
@@ -82,7 +87,8 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
 //            fin de hawaienne
 
             case  R.id.btnmontagnarde:
-                btnmontagnarde.setText("Montagnarde");
+                clickmontagnarde++;
+                btnmontagnarde.setText("Montagnarde " + clickmontagnarde );
 
                 nomCommande = (String) btnmontagnarde.getText();
                 Commande cMont = new Commande();
@@ -91,47 +97,62 @@ public class PizzeriaMainActivity extends AppCompatActivity implements View.OnCl
 //            fin de montagnarde
 
              case R.id.btnnapolitaine:
-                btnhawai.setText("Napolitaine");
+                clicknapolitaine++;
+                btnnapolitaine.setText("Napolitaine " + clicknapolitaine);
+
                 nomCommande = (String) btnnapolitaine.getText();
+                Commande cNap = new Commande();
+                cNap.execute(valueTab + "Napolitaine");
 
                 break;
 //            fin de napolitaine
 
             case  R.id.btnpannaCotta:
-                btnmontagnarde.setText("Pannacotta");
+                clickpannacotta++;
+                btnpannaCotta.setText("Pannacotta " + clickpannacotta);
 
                 nomCommande = (String) btnpannaCotta.getText();
-
+                Commande cPana = new Commande();
+                cPana.execute(valueTab + "Pannacotta");
                 break;
 //            fin de panacotta
 
              case R.id.btnqfromage:
-                btnhawai.setText("Fromagere");
+                 clickqfrommage++;
+                btnqfromage.setText("Quatre Frommage "+ clickqfrommage);
                 nomCommande = (String) btnqfromage.getText();
-
+                Commande cQfrom = new Commande();
+                cQfrom.execute(valueTab + "Fromagere");
                 break;
 //            fin de 4 frommage
 
             case  R.id.btnraclette:
-                btnmontagnarde.setText("Raclette");
+                clickraclette++;
+                btnraclette.setText("Raclette " + clickraclette);
 
                 nomCommande = (String) btnraclette.getText();
+                Commande cRac = new Commande();
+                cRac.execute(valueTab + "Raclette");
 
                 break;
 //            fin de raclette
 
              case R.id.btnroyale:
-                btnhawai.setText("royale");
+                 clickroyale++;
+                btnroyale.setText("royale " + clickroyale);
                 nomCommande = (String) btnroyale.getText();
-
+                Commande cHawai = new Commande();
+                cHawai.execute(valueTab + "Royale");
                 break;
 //            fin de royale
 
             case  R.id.btntiramisu:
-                btnmontagnarde.setText("Tiramisu");
+                clicktiramisu++;
+                btntiramisu.setText("Tiramisu " + clicktiramisu);
 
                 nomCommande = (String) btntiramisu.getText();
-
+                Commande cTiram = new Commande();
+                cTiram.execute(valueTab + "Tiramisu");
                 break;
 //            fin de tirramissu
 

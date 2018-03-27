@@ -7,6 +7,12 @@
     tools:context="com.example.oelayad.pizzeria.PizzeriaMainActivity"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTable"
+        android:text="Numéro de table : " />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
