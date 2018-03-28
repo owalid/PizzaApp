@@ -13,7 +13,7 @@ public class Start_Pizzeria extends AppCompatActivity implements View.OnClickLis
     final static String CLE_DONNEES = "passage numTable";
     private Button btnSubmit;
     private EditText textInput;
-    private int tableNum;
+    private String tableNum;
 
 
     @Override
@@ -28,14 +28,14 @@ public class Start_Pizzeria extends AppCompatActivity implements View.OnClickLis
         textInput = (EditText) findViewById(R.id.textInput);
 
         if(savedInstanceState != null){
-            tableNum = savedInstanceState.getInt(SAUVEGARDE_SAISIE);
+            tableNum = savedInstanceState.getString(SAUVEGARDE_SAISIE);
         }
     }
 
     @Override
     public void onClick(View view) {
-        tableNum = Integer.parseInt(textInput.getText().toString());
         if (view.getId() == R.id.btnSubmit) {
+            tableNum = String.valueOf(textInput.getText());
             Intent intent = new Intent(this, PizzeriaMainActivity.class);
             intent.putExtra(CLE_DONNEES, tableNum);
             startActivity(intent);

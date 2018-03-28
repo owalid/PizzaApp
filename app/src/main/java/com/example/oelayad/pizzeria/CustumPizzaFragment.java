@@ -1,6 +1,8 @@
 package com.example.oelayad.pizzeria;
 
 import android.app.Fragment;
+import android.app.FragmentTransaction;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -68,50 +70,65 @@ public class CustumPizzaFragment extends Fragment implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btnMozzarella:
+                btnMozzarella.setBackgroundColor(Color.WHITE);
                 nomIngredient += (String) btnMozzarella.getText();
                 break;
 //            fin de Mozzarella
 
-            case  R.id.btnmontagnarde:
+            case  R.id.btnGorgonzola:
+                btnGorgonzola.setBackgroundColor(Color.WHITE);
                 nomIngredient += (String) btnGorgonzola.getText();
                 break;
 //            fin de montagnarde
 
           case  R.id.btnOlives:
+                btnOlives.setBackgroundColor(Color.WHITE);
                 nomIngredient += (String) btnOlives.getText()+ " ";
                 break;
 //            fin de Olives
 
           case  R.id.btnAnchois:
+                btnAnchois.setBackgroundColor(Color.WHITE);
                 nomIngredient += (String) btnAnchois.getText()+ " ";
                 break;
 //            fin de Anchois
 
           case  R.id.btnArtichaud:
+                btnArtichaud.setBackgroundColor(Color.WHITE);
                 nomIngredient += (String) btnArtichaud.getText() + " ";
                 break;
 //            fin de Artichaud
 
           case  R.id.btnCapres:
+                btnCapres.setBackgroundColor(Color.WHITE);
                 nomIngredient += (String) btnCapres.getText()+ " ";
                 break;
 //            fin de Capres
 
           case  R.id.btnTuna:
+                btnTuna.setBackgroundColor(Color.WHITE);
                 nomIngredient += (String) btnTuna.getText()+ " ";
                 break;
 //            fin de Tuna
 
            case  R.id.btnegg:
+                btnegg.setBackgroundColor(Color.WHITE);
                 nomIngredient += (String) btnegg.getText()+ " ";
                 break;
 //            fin de Egg
 
           case  R.id.btnEnvoyer:
 
+
               Commande cCustom = new Commande();
+              System.out.println(PizzeriaMainActivity.numTable+nomIngredient);
               cCustom.execute(PizzeriaMainActivity.numTable+nomIngredient);
 
+              FragmentPizza fragmentPizza = new FragmentPizza();
+              FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+              fragmentTransaction.replace(R.id.fragementContainer, fragmentPizza);
+              fragmentTransaction.addToBackStack(null);
+              fragmentTransaction.commit();
               break;
 //            fin de Envoyer
 

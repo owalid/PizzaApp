@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 26 23:21:33 CEST 2018
+#Wed Mar 28 20:55:02 CEST 2018
 2.base=C\:\\Users\\Othmane\\Desktop\\informatique\\IUT\\S4\\android\\Pizzeria\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 5.set=DEX
 0.path=classes.dex

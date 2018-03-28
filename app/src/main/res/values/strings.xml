@@ -12,6 +12,7 @@
 
     <string name="key_table">KEY_TABLE</string>
     <string name="table">table numero: </string>
+    <string name="COLOR">COLOR </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

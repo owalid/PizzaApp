@@ -1,9 +1,13 @@
 package com.example.oelayad.pizzeria;
 
 import android.app.FragmentTransaction;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.os.PersistableBundle;
+import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,7 +33,6 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
     private Button btntiramisu;
     private Button btncustom;
 
-
     static int clickhawai;
     static int clickmontagnarde;
     static int clicknapolitaine;
@@ -41,7 +44,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
     private EditText valueTab;
     private String numTable;
     private int numtab;
-    public static TextView labelText;
+    public static TextView text;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,10 +59,9 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
         super.onCreate(savedInstanceState);
 
-        //get text for label
-        labelText = (TextView) view.findViewById(R.id.textTable);
-        String newText = labelText.getText() + PizzeriaMainActivity.numTable;
-        labelText.setText(newText);
+
+
+
 
         btnnapolitaine = (Button) view.findViewById(R.id.napolitaine);
         btnnapolitaine.setOnClickListener(this);
@@ -92,14 +94,8 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
+        text = (TextView) getActivity().findViewById(R.id.textTable);
 
-        String text = labelText.getText().toString();
-        if(text.length() >0 && text.length()<10){
-            System.out.println("----------------" + labelText.getText() + "--------------");
-            numTable = "0" + text;
-        }else{
-            numTable = String.valueOf(numtab);
-        }
         String nomCommande;
         switch (v.getId()){
             case R.id.btnhawai:
@@ -107,7 +103,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
                 btnhawai.setText("Hawaienne" + ":" + clickhawai);
                 nomCommande = (String) btnhawai.getText();
                 Commande cHwai = new Commande();
-                cHwai.execute(text + "Hawaienne");
+                cHwai.execute(text.getText() + "Hawaienne");
 
                 break;
 //            fin de hawaienne
@@ -118,7 +114,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
                 nomCommande = (String) btnmontagnarde.getText();
                 Commande cMont = new Commande();
-                cMont.execute(text + "Montagnarde");
+                cMont.execute(text.getText() + "Montagnarde");
                 break;
 //            fin de montagnarde
 
@@ -128,7 +124,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
                 nomCommande = (String) btnnapolitaine.getText();
                 Commande cNap = new Commande();
-                cNap.execute(text + "Napolitaine");
+                cNap.execute(text.getText() + "Napolitaine");
 
                 break;
 //            fin de napolitaine
@@ -139,7 +135,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
                 nomCommande = (String) btnpannaCotta.getText();
                 Commande cPana = new Commande();
-                cPana.execute(text + "Pannacotta");
+                cPana.execute(text.getText() + "Pannacotta");
                 break;
 //            fin de panacotta
 
@@ -148,7 +144,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
                 btnqfromage.setText("Quatre Frommage "+ clickqfrommage);
                 nomCommande = (String) btnqfromage.getText();
                 Commande cQfrom = new Commande();
-                cQfrom.execute(text + "Fromagere");
+                cQfrom.execute(text.getText() + "Fromagere");
                 break;
 //            fin de 4 frommage
 
@@ -158,7 +154,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
                 nomCommande = (String) btnraclette.getText();
                 Commande cRac = new Commande();
-                cRac.execute(text + "Raclette");
+                cRac.execute(text.getText() + "Raclette");
 
                 break;
 //            fin de raclette
@@ -168,7 +164,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
                 btnroyale.setText("royale " + clickroyale);
                 nomCommande = (String) btnroyale.getText();
                 Commande cHawai = new Commande();
-                cHawai.execute(text + "Royale");
+                cHawai.execute(text.getText() + "Royale");
                 break;
 //            fin de royale
 
@@ -178,7 +174,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
                 nomCommande = (String) btntiramisu.getText();
                 Commande cTiram = new Commande();
-                cTiram.execute(text + "Tiramisu");
+                cTiram.execute(text.getText() + "Tiramisu");
                 break;
 //            fin de tirramissu
 
@@ -224,5 +220,30 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
      */
     public interface OnFragmentInteractionListener {
         void onFragmentInteraction(Uri uri);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        applyPref();
+    }
+
+    // Méthode pour appliquer les préférences :
+    protected void applyPref() {
+        // - récupérer les valeurs choisies par l'utilisateur
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getActivity());
+        boolean color = sharedPref.getBoolean(String.valueOf(getResources().getText(R.string.COLOR)), true);
+
+        if(color){
+            btncustom.setBackgroundColor(Color.RED);
+            btnhawai.setBackgroundColor(Color.RED);
+            btnmontagnarde.setBackgroundColor(Color.RED);
+            btnnapolitaine.setBackgroundColor(Color.RED);
+            btnpannaCotta.setBackgroundColor(Color.RED);
+            btnqfromage.setBackgroundColor(Color.RED);
+            btnraclette.setBackgroundColor(Color.RED);
+            btnroyale.setBackgroundColor(Color.RED);
+            btntiramisu.setBackgroundColor(Color.RED);
+        }
     }
 }
