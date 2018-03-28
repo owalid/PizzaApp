@@ -63,7 +63,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
 
 
-        btnnapolitaine = (Button) view.findViewById(R.id.napolitaine);
+        btnnapolitaine = (Button) view.findViewById(R.id.btnnapolitaine);
         btnnapolitaine.setOnClickListener(this);
 
         btnroyale = (Button) view.findViewById(R.id.btnroyale);

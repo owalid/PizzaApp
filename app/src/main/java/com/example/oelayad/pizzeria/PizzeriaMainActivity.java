@@ -2,13 +2,11 @@ package com.example.oelayad.pizzeria;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.net.Uri;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.app.FragmentTransaction;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -73,8 +71,6 @@ public class PizzeriaMainActivity extends AppCompatActivity implements FragmentP
             getFragmentManager().beginTransaction().addToBackStack("pref").replace(R.id.fragementContainer, preferenceFragment).commit();
             return true;
         }
-
-
         return super.onOptionsItemSelected(item);
     }
 

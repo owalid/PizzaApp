@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5bf659ee4451421baa1610c3dcbf38f9\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\53b13ad602b757ec761749b88e3ce959\AndroidManifest.xml:17:1-31:12
@@ -14,20 +14,20 @@ MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Othmane\.
 MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\31db89447d9932aabf0c02082b55d219\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\0d8e42cd74b4856a3df36615af656914\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\da1940ddb20787fce191fa59c1b951af\AndroidManifest.xml:17:1-31:12
-INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:11-69
@@ -40,7 +40,7 @@ ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src
 	android:name
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:7:5-25:19
+ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:8:5-26:19
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5bf659ee4451421baa1610c3dcbf38f9\AndroidManifest.xml:9:5-20
@@ -64,33 +64,33 @@ MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle
 	android:supportsRtl
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:8:18-47
 	android:allowBackup
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.oelayad.pizzeria.PizzeriaMainActivity
-ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:14:9-16:20
+ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:15:9-17:20
 	android:name
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:14:19-55
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:15:19-55
 activity#com.example.oelayad.pizzeria.Start_Pizzeria
-ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:18:19-49
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:19:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
