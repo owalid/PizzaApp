@@ -13,23 +13,22 @@ import java.net.Socket;
  * Created by Othmane on 20/03/2018.
  */
 
-public class Commande extends AsyncTask<String, String, String> {
+public class Commande extends AsyncTask<String, String, Void> {
 
-    private static final int PORT = 9874;
-    private String message;
-    private String returnMessage;
+    private int port = 9874;
 
 
     @Override
     //code exécuter par la tâche
-    protected String doInBackground(String... strings) {
+    protected Void doInBackground(String... strings) {
         Socket socket = null;
 
         try{
-            socket = new Socket("chadok.info", PORT);  //création de socket faisant la connexion client/serveur
+            System.out.println("fesse" + strings[0]);
+            socket = new Socket("chadok.info", port);  //création de socket faisant la connexion client/serveur
             PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            writer.write(strings[0]);
+            writer.println(strings[0]);
             //writer.append(strings[0]);    //envoie du message au serveur mais sans retour à la ligne
             String retour1 = reader.readLine();  //lecture des message envoyer dans le socket par le serveur
             if (retour1 != null) {      //bien verifier à ce que reader ne soit pas vide
@@ -62,12 +61,6 @@ public class Commande extends AsyncTask<String, String, String> {
         }
         return null;
     }
-
-    @Override
-    protected void onProgressUpdate(String... messageRetour) {
-        PizzeriaMainActivity.labelText.setText(messageRetour[0]);
-    }
-
 
 
 }

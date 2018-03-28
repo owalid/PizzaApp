@@ -5,27 +5,32 @@
     build-mode="COLD"
     density="560dpi"
     format="10"
+    ir-eligibility="METHOD_DELETED"
     plugin-version="3.0.1"
-    timestamp="1522181787854"
+    timestamp="1522244585232"
     token="-2205001155627394911"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="4351" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="165" />
     <task
         name="verifier"
-        duration="0" />
+        duration="81" />
+
+    <artifact
+        location="C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1522086978143"
+        timestamp="1522187723706"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -66,33 +71,33 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1522089549966"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1522190684768"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1522099279819"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1522226212578"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_TYPE_CHANGE"
-        timestamp="1522101883327"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1522244585232"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1522181787854"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

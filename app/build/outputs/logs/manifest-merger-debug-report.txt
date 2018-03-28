@@ -4,16 +4,16 @@ ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5bf659ee4451421baa1610c3dcbf38f9\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5d0117e9c0d5bf5a002a95d533ad4886\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f927f7d09c7583ff37a7a508e4ef9186\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b635157eb09fd7b8c359a2cb0c92f854\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\2bb3a37a8979ab9c6dc75ff79f8e31fe\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\08b35162cece19738d9e7a62a6b315e0\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ea9daf37ad04a3edf98aca8e194ecffd\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ccd1a61aa12cc51286796e1777f31362\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ea338c940fc5f57deddac37841a81fd7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\53b13ad602b757ec761749b88e3ce959\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\894c0a3cd7dc84fa76f7667f92d38568\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\52a7246904098824c38d3d5e43226889\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c54e392130243adb0e621ea62ca08fe9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\4af2947f965b819280f08d22c4d97797\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\31db89447d9932aabf0c02082b55d219\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\0d8e42cd74b4856a3df36615af656914\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\da1940ddb20787fce191fa59c1b951af\AndroidManifest.xml:17:1-31:12
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:2:1-27:12
@@ -41,26 +41,26 @@ ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:7:5-25:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5bf659ee4451421baa1610c3dcbf38f9\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5bf659ee4451421baa1610c3dcbf38f9\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5d0117e9c0d5bf5a002a95d533ad4886\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5d0117e9c0d5bf5a002a95d533ad4886\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f927f7d09c7583ff37a7a508e4ef9186\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f927f7d09c7583ff37a7a508e4ef9186\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b635157eb09fd7b8c359a2cb0c92f854\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b635157eb09fd7b8c359a2cb0c92f854\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\2bb3a37a8979ab9c6dc75ff79f8e31fe\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\2bb3a37a8979ab9c6dc75ff79f8e31fe\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\08b35162cece19738d9e7a62a6b315e0\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\08b35162cece19738d9e7a62a6b315e0\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ea9daf37ad04a3edf98aca8e194ecffd\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ea9daf37ad04a3edf98aca8e194ecffd\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ccd1a61aa12cc51286796e1777f31362\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ccd1a61aa12cc51286796e1777f31362\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ea338c940fc5f57deddac37841a81fd7\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ea338c940fc5f57deddac37841a81fd7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\53b13ad602b757ec761749b88e3ce959\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\53b13ad602b757ec761749b88e3ce959\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\894c0a3cd7dc84fa76f7667f92d38568\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\894c0a3cd7dc84fa76f7667f92d38568\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\52a7246904098824c38d3d5e43226889\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\52a7246904098824c38d3d5e43226889\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c54e392130243adb0e621ea62ca08fe9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c54e392130243adb0e621ea62ca08fe9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\4af2947f965b819280f08d22c4d97797\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\4af2947f965b819280f08d22c4d97797\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\31db89447d9932aabf0c02082b55d219\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\31db89447d9932aabf0c02082b55d219\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\0d8e42cd74b4856a3df36615af656914\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\0d8e42cd74b4856a3df36615af656914\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\da1940ddb20787fce191fa59c1b951af\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\da1940ddb20787fce191fa59c1b951af\AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
@@ -95,30 +95,30 @@ uses-sdk
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5bf659ee4451421baa1610c3dcbf38f9\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\5bf659ee4451421baa1610c3dcbf38f9\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5d0117e9c0d5bf5a002a95d533ad4886\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5d0117e9c0d5bf5a002a95d533ad4886\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f927f7d09c7583ff37a7a508e4ef9186\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f927f7d09c7583ff37a7a508e4ef9186\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b635157eb09fd7b8c359a2cb0c92f854\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b635157eb09fd7b8c359a2cb0c92f854\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\2bb3a37a8979ab9c6dc75ff79f8e31fe\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\2bb3a37a8979ab9c6dc75ff79f8e31fe\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\08b35162cece19738d9e7a62a6b315e0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\08b35162cece19738d9e7a62a6b315e0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ea9daf37ad04a3edf98aca8e194ecffd\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ea9daf37ad04a3edf98aca8e194ecffd\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ccd1a61aa12cc51286796e1777f31362\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ccd1a61aa12cc51286796e1777f31362\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ea338c940fc5f57deddac37841a81fd7\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ea338c940fc5f57deddac37841a81fd7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\53b13ad602b757ec761749b88e3ce959\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\53b13ad602b757ec761749b88e3ce959\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\894c0a3cd7dc84fa76f7667f92d38568\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\894c0a3cd7dc84fa76f7667f92d38568\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\52a7246904098824c38d3d5e43226889\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\52a7246904098824c38d3d5e43226889\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c54e392130243adb0e621ea62ca08fe9\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c54e392130243adb0e621ea62ca08fe9\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\4af2947f965b819280f08d22c4d97797\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\4af2947f965b819280f08d22c4d97797\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\31db89447d9932aabf0c02082b55d219\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\31db89447d9932aabf0c02082b55d219\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\0d8e42cd74b4856a3df36615af656914\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\0d8e42cd74b4856a3df36615af656914\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\da1940ddb20787fce191fa59c1b951af\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\da1940ddb20787fce191fa59c1b951af\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
@@ -128,24 +128,24 @@ INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5d0117e9c0d5bf5a002a95d533ad4886\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\5d0117e9c0d5bf5a002a95d533ad4886\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f927f7d09c7583ff37a7a508e4ef9186\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f927f7d09c7583ff37a7a508e4ef9186\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b635157eb09fd7b8c359a2cb0c92f854\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\b635157eb09fd7b8c359a2cb0c92f854\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\2bb3a37a8979ab9c6dc75ff79f8e31fe\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\2bb3a37a8979ab9c6dc75ff79f8e31fe\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\08b35162cece19738d9e7a62a6b315e0\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\08b35162cece19738d9e7a62a6b315e0\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ea9daf37ad04a3edf98aca8e194ecffd\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ea9daf37ad04a3edf98aca8e194ecffd\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ccd1a61aa12cc51286796e1777f31362\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\ccd1a61aa12cc51286796e1777f31362\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ea338c940fc5f57deddac37841a81fd7\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\ea338c940fc5f57deddac37841a81fd7\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\53b13ad602b757ec761749b88e3ce959\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\53b13ad602b757ec761749b88e3ce959\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\894c0a3cd7dc84fa76f7667f92d38568\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\894c0a3cd7dc84fa76f7667f92d38568\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\52a7246904098824c38d3d5e43226889\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\52a7246904098824c38d3d5e43226889\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c54e392130243adb0e621ea62ca08fe9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\c54e392130243adb0e621ea62ca08fe9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\4af2947f965b819280f08d22c4d97797\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\4af2947f965b819280f08d22c4d97797\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\31db89447d9932aabf0c02082b55d219\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\31db89447d9932aabf0c02082b55d219\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\0d8e42cd74b4856a3df36615af656914\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\0d8e42cd74b4856a3df36615af656914\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\da1940ddb20787fce191fa59c1b951af\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\da1940ddb20787fce191fa59c1b951af\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\dd11fa5a509c6e3742ba95064803c471\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Othmane\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\39add4314fdafce829e38c8bee918c8d\AndroidManifest.xml:27:13-51

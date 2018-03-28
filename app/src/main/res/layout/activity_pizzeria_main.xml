@@ -11,75 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textTable"
-        android:text="Numéro de table : " />
+        android:text="" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Napolitaine"
-            android:id="@+id/napolitaine"
-            android:layout_weight="1"/>
-
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Royale"
-            android:id="@+id/btnroyale"
-            android:layout_weight="1"/>
-
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Quatre Fromage"
-            android:id="@+id/btnqfromage"
-            android:layout_weight="1"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Montagnarde"
-            android:id="@+id/btnmontagnarde"
-            android:layout_weight="1"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Raclette"
-            android:id="@+id/btnraclette"
-            android:layout_weight="1"/>
-
-
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:text="Hawai"
-            android:id="@+id/btnhawai"
-            android:layout_weight="1"/>
-
-
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/fragementContainer"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Panna cotta"
-            android:id="@+id/btnpannaCotta"
-            android:layout_weight="1"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="tiramisu"
-            android:id="@+id/btntiramisu"
-            android:layout_weight="1"/>
-    </LinearLayout>
-
+        android:layout_height="match_parent" />
 
 </LinearLayout>

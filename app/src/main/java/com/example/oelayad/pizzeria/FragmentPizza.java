@@ -1,95 +1,216 @@
 package com.example.oelayad.pizzeria;
 
-import android.content.Context;
-import android.net.Uri;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
+import android.os.PersistableBundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.net.Uri;
 
 /**
  * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
+ * * Activities that contain this fragment must implement the
  * {@link FragmentPizza.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link FragmentPizza#newInstance} factory method to
- * create an instance of this fragment.
  */
-public class FragmentPizza extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+public class FragmentPizza extends Fragment implements View.OnClickListener {
+    private Button btnnapolitaine;
+    private Button btnroyale;
+    private Button btnqfromage;
+    private Button btnmontagnarde;
+    private Button btnraclette;
+    private Button btnhawai;
+    private Button btnpannaCotta;
+    private Button btntiramisu;
+    private Button btncustom;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
 
-    private OnFragmentInteractionListener mListener;
-
-    public FragmentPizza() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment FragmentPizza.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static FragmentPizza newInstance(String param1, String param2) {
-        FragmentPizza fragment = new FragmentPizza();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
+    static int clickhawai;
+    static int clickmontagnarde;
+    static int clicknapolitaine;
+    static int clickpannacotta;
+    static int clickqfrommage;
+    static int clickraclette;
+    static int clickroyale;
+    static int clicktiramisu;
+    private EditText valueTab;
+    private String numTable;
+    private int numtab;
+    public static TextView labelText;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment_pizza, container, false);
-    }
+        View view = inflater.inflate(R.layout.fragment_fragment_pizza, container, false);
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
+        super.onCreate(savedInstanceState);
+
+        //get text for label
+        labelText = (TextView) view.findViewById(R.id.textTable);
+        String newText = labelText.getText() + PizzeriaMainActivity.numTable;
+        labelText.setText(newText);
+
+        btnnapolitaine = (Button) view.findViewById(R.id.napolitaine);
+        btnnapolitaine.setOnClickListener(this);
+
+        btnroyale = (Button) view.findViewById(R.id.btnroyale);
+        btnroyale.setOnClickListener(this);
+
+        btnqfromage = (Button) view.findViewById(R.id.btnqfromage);
+        btnqfromage.setOnClickListener(this);
+
+        btnmontagnarde = (Button) view.findViewById(R.id.btnmontagnarde);
+        btnmontagnarde.setOnClickListener(this);
+
+        btnraclette = (Button) view.findViewById(R.id.btnraclette);
+        btnraclette.setOnClickListener(this);
+
+        btnhawai = (Button) view.findViewById(R.id.btnhawai);
+        btnhawai.setOnClickListener(this);
+
+        btnpannaCotta = (Button) view.findViewById(R.id.btnpannaCotta);
+        btnpannaCotta.setOnClickListener(this);
+
+        btntiramisu = (Button) view.findViewById(R.id.btntiramisu);
+        btntiramisu.setOnClickListener(this);
+
+        btncustom = (Button) view.findViewById(R.id.btnCustom);
+        btncustom.setOnClickListener(this);
+        return view;
     }
 
     @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
+    public void onClick(View v) {
+
+        String text = labelText.getText().toString();
+        if(text.length() >0 && text.length()<10){
+            System.out.println("----------------" + labelText.getText() + "--------------");
+            numTable = "0" + text;
+        }else{
+            numTable = String.valueOf(numtab);
         }
+        String nomCommande;
+        switch (v.getId()){
+            case R.id.btnhawai:
+                clickhawai++;
+                btnhawai.setText("Hawaienne" + ":" + clickhawai);
+                nomCommande = (String) btnhawai.getText();
+                Commande cHwai = new Commande();
+                cHwai.execute(text + "Hawaienne");
+
+                break;
+//            fin de hawaienne
+
+            case  R.id.btnmontagnarde:
+                clickmontagnarde++;
+                btnmontagnarde.setText("Montagnarde " + clickmontagnarde );
+
+                nomCommande = (String) btnmontagnarde.getText();
+                Commande cMont = new Commande();
+                cMont.execute(text + "Montagnarde");
+                break;
+//            fin de montagnarde
+
+            case R.id.btnnapolitaine:
+                clicknapolitaine++;
+                btnnapolitaine.setText("Napolitaine " + clicknapolitaine);
+
+                nomCommande = (String) btnnapolitaine.getText();
+                Commande cNap = new Commande();
+                cNap.execute(text + "Napolitaine");
+
+                break;
+//            fin de napolitaine
+
+            case  R.id.btnpannaCotta:
+                clickpannacotta++;
+                btnpannaCotta.setText("Pannacotta " + clickpannacotta);
+
+                nomCommande = (String) btnpannaCotta.getText();
+                Commande cPana = new Commande();
+                cPana.execute(text + "Pannacotta");
+                break;
+//            fin de panacotta
+
+            case R.id.btnqfromage:
+                clickqfrommage++;
+                btnqfromage.setText("Quatre Frommage "+ clickqfrommage);
+                nomCommande = (String) btnqfromage.getText();
+                Commande cQfrom = new Commande();
+                cQfrom.execute(text + "Fromagere");
+                break;
+//            fin de 4 frommage
+
+            case  R.id.btnraclette:
+                clickraclette++;
+                btnraclette.setText("Raclette " + clickraclette);
+
+                nomCommande = (String) btnraclette.getText();
+                Commande cRac = new Commande();
+                cRac.execute(text + "Raclette");
+
+                break;
+//            fin de raclette
+
+            case R.id.btnroyale:
+                clickroyale++;
+                btnroyale.setText("royale " + clickroyale);
+                nomCommande = (String) btnroyale.getText();
+                Commande cHawai = new Commande();
+                cHawai.execute(text + "Royale");
+                break;
+//            fin de royale
+
+            case  R.id.btntiramisu:
+                clicktiramisu++;
+                btntiramisu.setText("Tiramisu " + clicktiramisu);
+
+                nomCommande = (String) btntiramisu.getText();
+                Commande cTiram = new Commande();
+                cTiram.execute(text + "Tiramisu");
+                break;
+//            fin de tirramissu
+
+             case  R.id.btnCustom:
+                 CustumPizzaFragment fragmentCustom = new CustumPizzaFragment();
+                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                 fragmentTransaction.replace(R.id.fragementContainer, fragmentCustom);
+                 fragmentTransaction.addToBackStack(null);
+                 fragmentTransaction.commit();
+                break;
+//            fin de Custom
+
+        }
+//        end of switch
+
     }
+//        end of function onClick
 
     @Override
-    public void onDetach() {
-        super.onDetach();
-        mListener = null;
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        outState.putInt(getResources().getString(R.string.key_hawaienne),clickhawai );
+        outState.putInt(getResources().getString(R.string.key_montagnarde),clickmontagnarde );
+        outState.putInt(getResources().getString(R.string.key_napolitaine),clicknapolitaine );
+        outState.putInt(getResources().getString(R.string.key_pannaCotta),clickpannacotta );
+        outState.putInt(getResources().getString(R.string.key_qfrommage),clickqfrommage );
+        outState.putInt(getResources().getString(R.string.key_raclette),clickraclette );
+        outState.putInt(getResources().getString(R.string.key_royale),clickroyale );
+        outState.putInt(getResources().getString(R.string.key_tiramisu),clicktiramisu);
     }
+
 
     /**
      * This interface must be implemented by activities that contain this
@@ -102,7 +223,6 @@ public class FragmentPizza extends Fragment {
      * >Communicating with Other Fragments</a> for more information.
      */
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
 }

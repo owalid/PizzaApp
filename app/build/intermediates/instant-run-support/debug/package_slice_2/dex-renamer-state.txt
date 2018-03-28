@@ -1,4 +1,4 @@
-#Tue Mar 27 00:04:52 CEST 2018
+#Wed Mar 28 15:43:18 CEST 2018
 base.0=C\:\\Users\\Othmane\\Desktop\\informatique\\IUT\\S4\\android\\Pizzeria\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex

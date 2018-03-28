@@ -1,108 +1,123 @@
 package com.example.oelayad.pizzeria;
 
-import android.content.Context;
-import android.net.Uri;
+import android.app.Fragment;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
  * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link CustumPizzaFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link CustumPizzaFragment#newInstance} factory method to
- * create an instance of this fragment.
  */
-public class CustumPizzaFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+public class CustumPizzaFragment extends Fragment implements View.OnClickListener{
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private Button btnMozzarella;
+    private Button btnGorgonzola;
+    private Button btnOlives;
+    private Button btnAnchois;
+    private Button btnArtichaud;
+    private Button btnCapres;
+    private Button btnTuna;
+    private Button btnegg;
+    private Button btnEnvoyer;
 
-    private OnFragmentInteractionListener mListener;
+    private String nomIngredient;
 
-    public CustumPizzaFragment() {
-        // Required empty public constructor
-    }
-
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment CustumPizzaFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static CustumPizzaFragment newInstance(String param1, String param2) {
-        CustumPizzaFragment fragment = new CustumPizzaFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_custum_pizza, container, false);
+        View v = inflater.inflate(R.layout.fragment_custum_pizza, container, false);
+
+        btnMozzarella = (Button) v.findViewById(R.id.btnMozzarella);
+        btnMozzarella.setOnClickListener(this);
+
+        btnGorgonzola = (Button) v.findViewById(R.id.btnGorgonzola);
+        btnGorgonzola.setOnClickListener(this);
+
+        btnOlives = (Button) v.findViewById(R.id.btnOlives);
+        btnOlives.setOnClickListener(this);
+
+        btnAnchois = (Button) v.findViewById(R.id.btnAnchois);
+        btnAnchois.setOnClickListener(this);
+
+        btnArtichaud = (Button) v.findViewById(R.id.btnArtichaud);
+        btnArtichaud.setOnClickListener(this);
+
+        btnCapres = (Button) v.findViewById(R.id.btnCapres);
+        btnCapres.setOnClickListener(this);
+
+        btnTuna = (Button) v.findViewById(R.id.btnTuna);
+        btnTuna.setOnClickListener(this);
+
+        btnegg = (Button) v.findViewById(R.id.btnegg);
+        btnegg.setOnClickListener(this);
+
+        btnEnvoyer = (Button) v.findViewById(R.id.btnEnvoyer);
+        btnEnvoyer.setOnClickListener(this);
+
+
+        return v;
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
-    }
 
     @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.btnMozzarella:
+                nomIngredient += (String) btnMozzarella.getText();
+                break;
+//            fin de Mozzarella
+
+            case  R.id.btnmontagnarde:
+                nomIngredient += (String) btnGorgonzola.getText();
+                break;
+//            fin de montagnarde
+
+          case  R.id.btnOlives:
+                nomIngredient += (String) btnOlives.getText()+ " ";
+                break;
+//            fin de Olives
+
+          case  R.id.btnAnchois:
+                nomIngredient += (String) btnAnchois.getText()+ " ";
+                break;
+//            fin de Anchois
+
+          case  R.id.btnArtichaud:
+                nomIngredient += (String) btnArtichaud.getText() + " ";
+                break;
+//            fin de Artichaud
+
+          case  R.id.btnCapres:
+                nomIngredient += (String) btnCapres.getText()+ " ";
+                break;
+//            fin de Capres
+
+          case  R.id.btnTuna:
+                nomIngredient += (String) btnTuna.getText()+ " ";
+                break;
+//            fin de Tuna
+
+           case  R.id.btnegg:
+                nomIngredient += (String) btnegg.getText()+ " ";
+                break;
+//            fin de Egg
+
+          case  R.id.btnEnvoyer:
+
+              Commande cCustom = new Commande();
+              cCustom.execute(PizzeriaMainActivity.numTable+nomIngredient);
+
+              break;
+//            fin de Envoyer
+
         }
+//        end of switch
     }
 
-    @Override
-    public void onDetach() {
-        super.onDetach();
-        mListener = null;
-    }
 
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     * <p>
-     * See the Android Training lesson <a href=
-     * "http://developer.android.com/training/basics/fragments/communicating.html"
-     * >Communicating with Other Fragments</a> for more information.
-     */
-    public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onFragmentInteraction(Uri uri);
-    }
 }
