@@ -4,6 +4,12 @@
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="settings"
+        android:title="@string/Setting"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_reset"
+        android:orderInCategory="10"
+        android:title="@string/reset_title"
+        app:showAsAction="ifRoom" />
+
 </menu>

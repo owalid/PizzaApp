@@ -66,7 +66,7 @@ MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Othmane\.gradle
 	android:label
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:11:9-41
 	android:icon
 		ADDED from C:\Users\Othmane\Desktop\informatique\IUT\S4\android\Pizzeria\app\src\main\AndroidManifest.xml:8:18-47
 	android:allowBackup

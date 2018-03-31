@@ -17,14 +17,14 @@
                 android:id="@+id/textInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Numéro de table"
+                android:hint="Table"
                 android:inputType="number" />
 
             <Button
                 android:id="@+id/btnSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="VALIDER" />
+                android:text="@string/Validate" />
         </LinearLayout>
 
 </RelativeLayout>

@@ -9,12 +9,14 @@ import android.support.annotation.Nullable;
  * Created by Othmane on 28/03/2018.
  */
 
+//=======================================================
+//===================Preference==========================
+//=======================================================
 public class Prefs extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // Affichage à partir du fichier XML
         addPreferencesFromResource(R.xml.prefs);
     }
 

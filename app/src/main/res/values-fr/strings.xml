@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Pizzeria</string>
+
+    <string name="key_hawaienne">KEY_HAW</string>
+    <string name="key_montagnarde">KEY_MONT</string>
+    <string name="key_napolitaine">KEY_NAPO</string>
+    <string name="key_pannaCotta">KEY_PANCOTA</string>
+    <string name="key_qfrommage">KEY_QFROM</string>
+    <string name="key_raclette">KEY_RACL</string>
+    <string name="key_royale">KEY_ROY</string>
+    <string name="key_tiramisu">KEY_TIRA</string>
+
+    <string name="key_table">KEY_TABLE</string>
+    <string name="table">table numero: </string>
+    <string name="COLOR">COLOR </string>
+
+
+    <string name="Hawaiian">Hawaienne</string>
+    <string name="Mountain">Montagnarde</string>
+    <string name="Neapolitan">Napolitaine</string>
+    <string name="Pannacotta">Pannacotta</string>
+    <string name="Four_Cheese">Quatre Frommage</string>
+    <string name="Raclette">Raclette</string>
+    <string name="Royale">Royale</string>
+    <string name="Tiramisu">Tiramisu</string>
+    <string name="Validate">Valider</string>
+    <string name="Mozzarella">Mozzarella</string>
+    <string name="Gorgonzola">Gorgonzola</string>
+    <string name="Olives">Olives</string>
+    <string name="Anchovy">Anchois</string>
+    <string name="Artichokes">Artichaut</string>
+    <string name="Capres">Capres</string>
+    <string name="Tuna">Thon</string>
+    <string name="Egg">Oeuf</string>
+    <string name="Custom_Pizza">Pizza perso</string>
+    <string name="Setting">Parametre</string>
+    <string name="No_custom">Vous avez sélectionner aucun ingredient</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reset_title">Réinitialiser</string>
+    <string name="modal_reset">Voulez vous vraiment réinitialiser la commande</string>
+</resources>

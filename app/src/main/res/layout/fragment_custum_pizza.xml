@@ -25,7 +25,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Mozzarella"
+                android:text="@string/Mozzarella"
                 android:id="@+id/btnMozzarella"
                 android:background="@color/colorPrimary"
                 android:layout_weight="1"/>
@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/colorPrimary"
-                android:text="Gorgonzola"
+                android:text="@string/Gorgonzola"
                 android:id="@+id/btnGorgonzola"
                 android:layout_weight="1"/>
         </LinearLayout>
@@ -49,7 +49,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Olives"
+                android:text="@string/Olives"
                 android:id="@+id/btnOlives"
                 android:background="@color/colorPrimary"
                 android:layout_weight="1"/>
@@ -57,7 +57,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Anchois"
+                android:text="@string/Anchovy"
                 android:id="@+id/btnAnchois"
                 android:background="@color/colorPrimary"
                 android:layout_weight="1"/>
@@ -73,7 +73,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Artichaud"
+                android:text="@string/Artichokes"
                 android:id="@+id/btnArtichaud"
                 android:background="@color/colorPrimary"
                 android:layout_weight="1"/>
@@ -81,7 +81,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Capres"
+                android:text="@string/Capres"
                 android:id="@+id/btnCapres"
                 android:background="@color/colorPrimary"
                 android:layout_weight="1"/>
@@ -97,7 +97,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Tuna"
+                android:text="@string/Tuna"
                 android:id="@+id/btnTuna"
                 android:background="@color/colorPrimary"
                 android:layout_weight="1"/>
@@ -105,7 +105,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="egg"
+                android:text="@string/Egg"
                 android:id="@+id/btnegg"
                 android:background="@color/colorPrimary"
                 android:layout_weight="1"/>
@@ -120,7 +120,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Envoyer"
+                android:text="@string/Validate"
                 android:id="@+id/btnEnvoyer"
                 android:layout_weight="1"/>
 

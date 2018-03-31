@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+//=======================================================
+//===================Premiere vue de l'application=======
+//=======================================================
+
 public class Start_Pizzeria extends AppCompatActivity implements View.OnClickListener {
 
     public final static String SAUVEGARDE_SAISIE = "Sauvegarde du champ text";
@@ -20,6 +24,7 @@ public class Start_Pizzeria extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+//        recuperer la vue
         setContentView(R.layout.activity_start__pizzeria);
 
         btnSubmit = (Button) findViewById(R.id.btnSubmit);
@@ -32,6 +37,7 @@ public class Start_Pizzeria extends AppCompatActivity implements View.OnClickLis
         }
     }
 
+//    mettre le numero de la table dans un Intent et l'envoyer pour la recuperer dans les vue suivante
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.btnSubmit) {
@@ -45,12 +51,10 @@ public class Start_Pizzeria extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onStart() {
         super.onStart();
-        System.out.println("ACTIVITÉ : PizzariaTable \nMÉTHODE : onStart");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        System.out.println("ACTIVITÉ : PizzariaTable \nMÉTHODE : onStop");
     }
 }

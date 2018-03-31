@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Napolitaine" />
+        android:text="@string/Neapolitan" />
 
 
     <Button
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Royale" />
+        android:text="@string/Royale" />
 
 
     <Button
@@ -31,21 +31,21 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Quatre Fromage" />
+        android:text="@string/Four_Cheese" />
 
     <Button
         android:id="@+id/btnmontagnarde"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Montagnarde" />
+        android:text="@string/Mountain" />
 
     <Button
         android:id="@+id/btnraclette"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Raclette" />
+        android:text="@string/Raclette" />
 
 
     <Button
@@ -53,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Hawai" />
+        android:text="@string/Hawaiian" />
 
 
     <LinearLayout
@@ -67,14 +67,14 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Panna cotta" />
+            android:text="@string/Pannacotta" />
 
         <Button
             android:id="@+id/btntiramisu"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="tiramisu" />
+            android:text="@string/Tiramisu" />
     </LinearLayout>
 
     <Button
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Custum" />
+        android:text="@string/Custom_Pizza" />
 
 
 

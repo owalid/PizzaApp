@@ -1,6 +1,8 @@
 package com.example.oelayad.pizzeria;
 
+import android.app.AlertDialog;
 import android.app.FragmentTransaction;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -22,28 +24,14 @@ import android.net.Uri;
  * {@link FragmentPizza.OnFragmentInteractionListener} interface
  * to handle interaction events.
  */
-public class FragmentPizza extends Fragment implements View.OnClickListener {
-    private Button btnnapolitaine;
-    private Button btnroyale;
-    private Button btnqfromage;
-    private Button btnmontagnarde;
-    private Button btnraclette;
-    private Button btnhawai;
-    private Button btnpannaCotta;
-    private Button btntiramisu;
-    private Button btncustom;
 
-    static int clickhawai;
-    static int clickmontagnarde;
-    static int clicknapolitaine;
-    static int clickpannacotta;
-    static int clickqfrommage;
-    static int clickraclette;
-    static int clickroyale;
-    static int clicktiramisu;
-    private EditText valueTab;
-    private String numTable;
-    private int numtab;
+//=======================================================
+//===================Fragment pizzeria====================
+//========================================================
+public class FragmentPizza extends Fragment implements View.OnClickListener {
+//    definition des attribut de la classe
+    private Button btnnapolitaine,btnroyale,btnqfromage, btnmontagnarde, btnraclette,  btnhawai,btnpannaCotta, btntiramisu, btncustom  ;
+    static int clickhawai, clickmontagnarde, clicknapolitaine, clickpannacotta, clickqfrommage, clickraclette, clickroyale, clicktiramisu = 0;
     public static TextView text;
 
     @Override
@@ -60,31 +48,37 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
         super.onCreate(savedInstanceState);
 
 
-
-
-
         btnnapolitaine = (Button) view.findViewById(R.id.btnnapolitaine);
+        btnnapolitaine.setText("Napolitaine " + clicknapolitaine);
         btnnapolitaine.setOnClickListener(this);
 
         btnroyale = (Button) view.findViewById(R.id.btnroyale);
+        btnroyale.setText("Royale " + clickroyale);
         btnroyale.setOnClickListener(this);
 
         btnqfromage = (Button) view.findViewById(R.id.btnqfromage);
+        btnqfromage.setText("Quatre Frommage "+ clickqfrommage);
         btnqfromage.setOnClickListener(this);
 
         btnmontagnarde = (Button) view.findViewById(R.id.btnmontagnarde);
+        btnmontagnarde.setText("Montagnarde " + clickmontagnarde );
         btnmontagnarde.setOnClickListener(this);
 
         btnraclette = (Button) view.findViewById(R.id.btnraclette);
+        btnraclette.setText("Raclette " + clickraclette);
+
         btnraclette.setOnClickListener(this);
 
         btnhawai = (Button) view.findViewById(R.id.btnhawai);
+        btnhawai.setText("Hawaienne" + ":" + clickhawai);
         btnhawai.setOnClickListener(this);
 
         btnpannaCotta = (Button) view.findViewById(R.id.btnpannaCotta);
+        btnpannaCotta.setText("Pannacotta " + clickpannacotta);
         btnpannaCotta.setOnClickListener(this);
 
         btntiramisu = (Button) view.findViewById(R.id.btntiramisu);
+        btntiramisu.setText("Tiramisu " + clicktiramisu);
         btntiramisu.setOnClickListener(this);
 
         btncustom = (Button) view.findViewById(R.id.btnCustom);
@@ -104,7 +98,6 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
                 nomCommande = (String) btnhawai.getText();
                 Commande cHwai = new Commande();
                 cHwai.execute(text.getText() + "Hawaienne");
-
                 break;
 //            fin de hawaienne
 
@@ -161,7 +154,7 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
 
             case R.id.btnroyale:
                 clickroyale++;
-                btnroyale.setText("royale " + clickroyale);
+                btnroyale.setText("Royale " + clickroyale);
                 nomCommande = (String) btnroyale.getText();
                 Commande cHawai = new Commande();
                 cHawai.execute(text.getText() + "Royale");
@@ -234,16 +227,51 @@ public class FragmentPizza extends Fragment implements View.OnClickListener {
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getActivity());
         boolean color = sharedPref.getBoolean(String.valueOf(getResources().getText(R.string.COLOR)), true);
 
+//        permet de colorer les boutton
         if(color){
-            btncustom.setBackgroundColor(Color.RED);
-            btnhawai.setBackgroundColor(Color.RED);
-            btnmontagnarde.setBackgroundColor(Color.RED);
-            btnnapolitaine.setBackgroundColor(Color.RED);
-            btnpannaCotta.setBackgroundColor(Color.RED);
-            btnqfromage.setBackgroundColor(Color.RED);
-            btnraclette.setBackgroundColor(Color.RED);
-            btnroyale.setBackgroundColor(Color.RED);
-            btntiramisu.setBackgroundColor(Color.RED);
+            btncustom.setBackgroundColor(getResources().getColor(R.color.colorRed));
+            btnhawai.setBackgroundColor(getResources().getColor(R.color.colorRed));
+            btnmontagnarde.setBackgroundColor(getResources().getColor(R.color.colorRed));
+            btnnapolitaine.setBackgroundColor(getResources().getColor(R.color.colorRed));
+            btnpannaCotta.setBackgroundColor(getResources().getColor(R.color.colorRed));
+            btnqfromage.setBackgroundColor(getResources().getColor(R.color.colorRed));
+            btnraclette.setBackgroundColor(getResources().getColor(R.color.colorRed));
+            btnroyale.setBackgroundColor(getResources().getColor(R.color.colorRed));
+            btntiramisu.setBackgroundColor(getResources().getColor(R.color.colorRed));
         }
+    }
+
+//    alerte pour reinitialiser
+    public void alert(){
+        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                if(which == DialogInterface.BUTTON_POSITIVE){
+//                    on declare tout le click a 0 et on set le text des boutton
+                    clickhawai=0;
+                    clickmontagnarde=0;
+                    clicknapolitaine=0;
+                    clickpannacotta=0;
+                    clickqfrommage=0;
+                    clickraclette=0;
+                    clickroyale=0;
+                    clicktiramisu = 0;
+
+                    btnhawai.setText("Hawaienne" + ":" + clickhawai);
+                    btnmontagnarde.setText("Montagnarde " + clickmontagnarde );
+                    btnnapolitaine.setText("Napolitaine " + clicknapolitaine);
+                    btnpannaCotta.setText("Pannacotta " + clickpannacotta);
+                    btnqfromage.setText("Quatre Frommage "+ clickqfrommage);
+                    btnraclette.setText("Raclette " + clickraclette);
+                    btnroyale.setText("Royale " + clickroyale);
+                    btntiramisu.setText("Tiramisu " + clicktiramisu);
+
+                }
+            }
+        };
+        AlertDialog.Builder ab = new AlertDialog.Builder(getActivity());
+
+        ab.setMessage(R.string.modal_reset).setPositiveButton("Yes", dialogClickListener)
+                .setNegativeButton("No", dialogClickListener).show();
     }
 }
